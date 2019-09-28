@@ -12,7 +12,7 @@ spec:
         name: frontend-node
     spec:
       containers:
-      - image: gcr.io/<PROJECT ID>/frontend:v1.0
+      - image: gcr.io/gke-gobang-app-example-228405/frontend:v1.0
         name: frontend-node
         ports:
         - containerPort: 8080

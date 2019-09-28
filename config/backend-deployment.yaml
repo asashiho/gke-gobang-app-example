@@ -12,7 +12,7 @@ spec:
         name: backend-node
     spec:
       containers:
-      - image: gcr.io/<PROJECT ID>/backend:v1.0
+      - image: gcr.io/gke-gobang-app-example-228405/backend:v1.0
         name: backend-node
         ports:
         - containerPort: 8081
